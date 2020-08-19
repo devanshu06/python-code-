@@ -1,7 +1,7 @@
 #Problem is :- "Convert the OS based program into a menu driven program using Python Code which will execute the required user query when user will give the input as a text."
 import pyttsx3
 import os
-pyttsx3.speak("welcome to my tool, here are some thing that my tool can do")
+pyttsx3.speak("welcome to my personal assistant pappu, here are some thing that pappu can do")
 pyttsx3.speak("it can run some programs like")
 pyttsx3.speak("chrome , notepad , mediaplayer , calculator , my pc , vlc media player , virtualbox , ms paint , task manager , calendar , clock , camera , email , maps , news , screenshot , microsoft excel , microsoft powerpoint , microsoft word , adobe reader")
 print()
@@ -9,6 +9,7 @@ while True:
     p = input("enter what you want to open :")
     if(("chrome" in p) or ("google" in p) or ("browser" in p)) and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("chrome will open in a second")
@@ -20,6 +21,7 @@ while True:
 
     elif(("text") in p or ("editor") in p or ("notepad") in p) and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("notepad will open in a second")
@@ -31,6 +33,7 @@ while True:
 
     elif(("music" in p) or ("media" in p) or ("songs" in p) or ("song" in p)) and (("play" in p) or ("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("window media player will open in a second")
@@ -42,6 +45,7 @@ while True:
 
     elif(("calc" in p) or ("calculator" in p)) and (("open" in p) or ("run" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("calculator will open in a second")
@@ -53,6 +57,7 @@ while True:
 
     elif(("mycomputer" in p) or ("pc" in p)) and (("open" in p) or ("run" in p) or ("excute" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("my computer will open in a second")
@@ -64,6 +69,7 @@ while True:
 
     elif(("video" in p) or ("videos" in p) or ("vlc" in p)) and (("play" in p) or ("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("vlc media player will open in a second")
@@ -75,6 +81,7 @@ while True:
 
     elif(("virtual") in p or ("terminal") in p or("machine")in p ) and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("virtual machine will open in a second")
@@ -85,8 +92,9 @@ while True:
         os.system("taskkill/im virtualbox.exe")
 
 
-    elif(("paint") in p or ("ms") in p or ("3d" in p ) ) and (("run" in p) or ("open" in p) or ("excute" in p)):
+    elif(("paint") in p or ("mspaint") in p or ("3d" in p ) ) and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("paint will open in a second")
@@ -98,6 +106,7 @@ while True:
 
     elif(("task"in p) or ("manager" in p)) and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("task manager will open in a second")
@@ -108,6 +117,7 @@ while True:
 
     elif("calendar" in p) and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont"in p)or("dont"in p)or("do not" in p):
+           pyttsx3.speak("okk,as you say")
            pass
         else:
            pyttsx3.speak("calendar will open in a second")
@@ -118,6 +128,7 @@ while True:
 
     elif (("clock" in p) or ("time"in p))and (("show" in p) or ("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("clock will open in a second")
@@ -129,6 +140,7 @@ while True:
 
     elif (("camera" in p) or ("webcam"in p))and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("camera will open in a second")
@@ -140,6 +152,7 @@ while True:
 
     elif (("mail" in p) or ("email"in p))and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("e-mail will open in a second")
@@ -151,6 +164,7 @@ while True:
 
     elif (("maps" in p) or ("map"in p)or("location"in p))and (("show"in p)or("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("map will open in a second")
@@ -162,6 +176,7 @@ while True:
 
     elif (("news" in p))and (("show"in p)or("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("news will open in a second")
@@ -173,6 +188,7 @@ while True:
 
     elif (("screenshot" in p) or ("snap" in p) or("snip"in p)or("sketch"in p)) and (("take"in p) or("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("Snip & Sketch will open in a second")
@@ -184,6 +200,7 @@ while True:
 
     elif (("excel" in p)or ("sheet"in p))and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("microsoft excel will open in a second")
@@ -195,6 +212,7 @@ while True:
 
     elif (("word" in p)or ("office"in p))and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("microsoft word will open in a second")
@@ -206,6 +224,7 @@ while True:
 
     elif (("adobe" in p)or ("reader"in p)or ("pdf"in p)or("viewer"in p))and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("adobe reader will open in a second")
@@ -217,6 +236,7 @@ while True:
 
     elif (("powerpoint" in p)or ("presentation"in p))and (("run" in p) or ("open" in p) or ("excute" in p)):
         if ("dont" in p) or ("dont" in p) or ("do not" in p):
+            pyttsx3.speak("okk,as you say")
             pass
         else:
             pyttsx3.speak("powerpoint will open in a second")
@@ -233,6 +253,7 @@ while True:
     else:
         pyttsx3.speak("unable to understand what you have written.")
         print("Not able to understand")
+
 
 
 
