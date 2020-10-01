@@ -1,8 +1,13 @@
 #Problem is :- "Convert the OS based program into a menu driven program using Python Code which will execute the required user query when user will give the input as a text."
+#impoerted basic libraries
 import pyttsx3
 import os
+
+#speak module
 pyttsx3.speak("welcome to my personal assistant pappu")
 print()
+
+#Particular tasks in if and else
 while True:
     x= print("PAPPU: what should i do for you?")
     p= input("USER:")
