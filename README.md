@@ -1,4 +1,4 @@
-VOICE ASSISTANT
+#VOICE-ASSISTANT
 
-I have created a voice assistant using python 
+I have created a voice assistant using python. 
 
